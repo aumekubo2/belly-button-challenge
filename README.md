@@ -3,7 +3,7 @@
 #Instructions
 Complete the following steps:
 
-**1-Use the D3 library to read in samples.json from the URL https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/14-Interactive-Web-Visualizations/02-Homework/samples.json.
+**1-Use the D3 library to read in samples.json from the URL https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/14-Interactive-Web-Visualizations/02-Homework/samples.json.**
 
 Create a horizontal bar chart with a dropdown menu to display the top 10 OTUs found in that individual.
 
@@ -15,7 +15,7 @@ Use otu_labels as the hovertext for the chart.
 
 ![barplot](barplot.png)
 
-**2-Create a bubble chart that displays each sample.
+**2-Create a bubble chart that displays each sample.**
 
 Use otu_ids for the x values.
 
@@ -28,3 +28,15 @@ Use otu_ids for the marker colors.
 Use otu_labels for the text values.
 
 ![bubleplot](bubleplot.png)
+
+
+##Advanced Challenge Assignment (Optional with no extra points earning)
+The following task is advanced and therefore optional.
+
+Adapt the Gauge Chart from https://plot.ly/javascript/gauge-charts/Links to an external site. to plot the weekly washing frequency of the individual.
+
+You will need to modify the example gauge code to account for values ranging from 0 through 9.
+
+Update the chart whenever a new sample is selected.
+
+![gaugeplot](gaugeplot.png)
